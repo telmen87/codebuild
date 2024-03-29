@@ -10,3 +10,4 @@ phases:
   pre_build:
    commands:
        - echo "Hello World!"
+       - pytest -v tests/test_main.py
