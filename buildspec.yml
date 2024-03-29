@@ -1,6 +1,12 @@
 version: 0.2
 
 phases:
+  install:
+    runtime-versions:
+      python: 3.11
+    commands:
+      - pip3 install pytest
+      - ls -l 
   pre_build:
    commands:
        - echo "Hello World!"
